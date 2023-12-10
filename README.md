@@ -8,7 +8,7 @@
 ---
 
 ### 👨‍💻 About the project:
-- ### Libraries **bcryptjs , jsonwebtoken , cors , dotenv , express , jsonwebtoken , multer , nodemon**
+- ### Libraries **bcryptjs , jsonwebtoken , cors , dotenv , express , jsonwebtoken , multer **
 - 🌐 database **mongoose**
 - 🔨 project using  **TypeScript**
 <div align="center">
