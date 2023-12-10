@@ -8,8 +8,15 @@
 ---
 
 ### 👨‍💻 About the project:
-- ### Libraries **bcryptjs , jsonwebtoken , cors , dotenv , express , jsonwebtoken , multer **
-- 🌐 database **mongoose**
+- ### Dependencies
+- **bcryptjs** : A library for password hashing. It is used to store passwords securely in databases.
+- **jsonwebtoken** : It is used for the creation and verification of JSON Web Tokens (JWT). JWTs are security tokens used for authentication and transmission of information between trusted parties.
+- **cors** : A middleware that allows or blocks HTTP requests based on the settings you specify. Helps control access to your server resources from different domains. 
+- **dotenv** : Used to load environment variables from an .env file in Node.js application development. This is useful for separating application configuration from your source code.
+- **express** : A web application framework for Node.js. It makes it easy to create web servers and manage HTTP routes and requests
+- **nodemon** : Nodemon is another tool commonly used in developing Node.js applications. It is a source code change monitor that automatically restarts the application when it detects file changes.
+- **multer** : A Node.js middleware for managing file uploads in web applications. It is commonly used when you need to allow users to upload files to your server.
+- 🌐 database **mongoose** : Mongoose is a data modeling library for MongoDB and Node.js. MongoDB is a NoSQL database that stores data in BSON (Binary JSON) JSON documents, and Mongoose provides a simple, schema-based interface for interacting with MongoDB from a Node.js application.
 - 🔨 project using  **TypeScript**
 <div align="center">
     <div>
