@@ -1,14 +1,18 @@
 import { Router } from "express";
-import { Request, Response } from 'express';
-import { getItem, postItem } from "../controller/item";
-
+import { deleteItem, getItem, getItems, postItem, updateItem } from "../controller/item";
+import { logMiddleware } from "../middleware/log";
 
 const router = Router();
 
-router.get('/', getItem);
 router.get('/:id', getItem);
 
+router.get('/', getItems);
+
 router.post('/', postItem);
+
+router.put('/:id', updateItem);
+
+router.delete('/:id', deleteItem);
 
 
 

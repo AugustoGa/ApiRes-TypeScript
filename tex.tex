@@ -1,0 +1,27 @@
+
+PETICION POST http://localhost:3002/item
+{
+    "name": "modelo x",
+    "color": "azul",
+    "gas": "electric",
+    "year": 2023,
+    "description": "alta gama",
+    "price": 52000
+}
+
+http://localhost:3002/auth/register
+{
+    "name": "augusto",
+    "password": "12345678",
+    "email": "augusto@gmail.com"
+}
+Respuesta
+{
+    "name": "augusto",
+    "password": "$2a$08$0JxREpl5XLhR0J1jXzIeq.doVn.GbWDYMG6KFaSzU5zpIp4aekqSC",
+    "email": "augusto@gmail.com",
+    "description": "...Descripcion...",
+    "_id": "65753eb3367f3d6159e61d0e",
+    "createdAt": "2023-12-10T04:29:39.735Z",
+    "updatedAt": "2023-12-10T04:29:39.735Z"
+}

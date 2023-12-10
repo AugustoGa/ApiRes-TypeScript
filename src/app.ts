@@ -7,7 +7,7 @@ import db from "./config/mongo";
 const PORT = process.env.PORT || 3001;
 
 const app = express()
-app.use(express.json());
+app.use(express.json());// Recibir datos en formato json x el body
 app.use(cors()) //Indicamos a la appi que puede ser consumida por cualquier origen 
 app.use(router);
 db().then(()=> console.log("Conecion Ready"));
